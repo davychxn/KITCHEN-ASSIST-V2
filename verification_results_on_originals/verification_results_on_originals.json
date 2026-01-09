@@ -1,0 +1,1358 @@
+{
+  "timestamp": "2026-01-09T23:28:30.126173",
+  "model_type": "temporal_grouped_on_originals",
+  "input_directory": "D:\\delete2025\\20251205_patent_abnormal\\20260106_pics\\verification_pics2",
+  "output_directory": "verification_results_on_originals",
+  "model_path": "pan_pot_classifier_temporal.pth",
+  "yolo_model_path": "./yolo_training/kitchenware_detector2/weights/best.pt",
+  "total_groups": 56,
+  "correct": 52,
+  "total": 56,
+  "accuracy": 92.85714285714286,
+  "results": [
+    {
+      "group_key": "boiling_10",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "frying-pan_boiling_10_1.jpg",
+        "frying-pan_boiling_10_2.jpg",
+        "frying-pan_boiling_10_3.jpg"
+      ],
+      "merged_bbox": [
+        39,
+        162,
+        280,
+        318
+      ],
+      "predicted_class": "normal",
+      "confidence": 64.64998126029968,
+      "correct": false,
+      "all_probabilities": {
+        "boiling": 0.3197227716445923,
+        "normal": 0.6464998126029968,
+        "on_fire": 0.01062858197838068,
+        "smoking": 0.02314884029328823
+      }
+    },
+    {
+      "group_key": "boiling_11",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "frying-pan_boiling_11_1.jpg",
+        "frying-pan_boiling_11_2.jpg",
+        "frying-pan_boiling_11_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        69,
+        287,
+        446
+      ],
+      "predicted_class": "boiling",
+      "confidence": 48.88892471790314,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.48888924717903137,
+        "normal": 0.18603457510471344,
+        "on_fire": 0.1258392184972763,
+        "smoking": 0.19923698902130127
+      }
+    },
+    {
+      "group_key": "boiling_12",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "frying-pan_boiling_12_1.jpg",
+        "frying-pan_boiling_12_2.jpg",
+        "frying-pan_boiling_12_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        66,
+        287,
+        446
+      ],
+      "predicted_class": "boiling",
+      "confidence": 45.289939641952515,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.45289939641952515,
+        "normal": 0.15560677647590637,
+        "on_fire": 0.19579081237316132,
+        "smoking": 0.19570308923721313
+      }
+    },
+    {
+      "group_key": "boiling_13",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_13_1.jpg",
+        "frying-pan_boiling_13_1.jpg",
+        "cooking-pot_boiling_13_2.jpg"
+      ],
+      "merged_bbox": [
+        1,
+        128,
+        288,
+        415
+      ],
+      "predicted_class": "boiling",
+      "confidence": 93.11341643333435,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9311341643333435,
+        "normal": 0.05700043588876724,
+        "on_fire": 0.004705139901489019,
+        "smoking": 0.007160308305174112
+      }
+    },
+    {
+      "group_key": "boiling_14",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_14_1.jpg",
+        "frying-pan_boiling_14_1.jpg",
+        "cooking-pot_boiling_14_2.jpg"
+      ],
+      "merged_bbox": [
+        1,
+        136,
+        288,
+        421
+      ],
+      "predicted_class": "boiling",
+      "confidence": 95.63918709754944,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9563918709754944,
+        "normal": 0.026370132341980934,
+        "on_fire": 0.007816818542778492,
+        "smoking": 0.009421180933713913
+      }
+    },
+    {
+      "group_key": "boiling_15",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_15_1.jpg",
+        "frying-pan_boiling_15_1.jpg",
+        "cooking-pot_boiling_15_2.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        41,
+        286,
+        406
+      ],
+      "predicted_class": "boiling",
+      "confidence": 97.9072630405426,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.979072630405426,
+        "normal": 0.016421880573034286,
+        "on_fire": 0.0024108232464641333,
+        "smoking": 0.0020946552976965904
+      }
+    },
+    {
+      "group_key": "boiling_16",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_16_1.jpg",
+        "frying-pan_boiling_16_1.jpg",
+        "cooking-pot_boiling_16_2.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        57,
+        288,
+        463
+      ],
+      "predicted_class": "boiling",
+      "confidence": 96.43539190292358,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9643539190292358,
+        "normal": 0.029362374916672707,
+        "on_fire": 0.0021476128604263067,
+        "smoking": 0.0041361162438988686
+      }
+    },
+    {
+      "group_key": "boiling_17",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_17_1.jpg",
+        "cooking-pot_boiling_17_2.jpg",
+        "cooking-pot_boiling_17_3.jpg"
+      ],
+      "merged_bbox": [
+        11,
+        168,
+        266,
+        336
+      ],
+      "predicted_class": "normal",
+      "confidence": 92.05750226974487,
+      "correct": false,
+      "all_probabilities": {
+        "boiling": 0.06525947898626328,
+        "normal": 0.9205750226974487,
+        "on_fire": 0.006791591178625822,
+        "smoking": 0.007373901084065437
+      }
+    },
+    {
+      "group_key": "boiling_18",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_18_1.jpg",
+        "cooking-pot_boiling_18_2.jpg",
+        "cooking-pot_boiling_18_3.jpg"
+      ],
+      "merged_bbox": [
+        13,
+        182,
+        262,
+        335
+      ],
+      "predicted_class": "normal",
+      "confidence": 81.70682787895203,
+      "correct": false,
+      "all_probabilities": {
+        "boiling": 0.1452295184135437,
+        "normal": 0.8170682787895203,
+        "on_fire": 0.010497093200683594,
+        "smoking": 0.02720508724451065
+      }
+    },
+    {
+      "group_key": "boiling_19",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_19_1.jpg",
+        "cooking-pot_boiling_19_2.jpg",
+        "cooking-pot_boiling_19_3.jpg"
+      ],
+      "merged_bbox": [
+        67,
+        160,
+        223,
+        287
+      ],
+      "predicted_class": "boiling",
+      "confidence": 95.43981552124023,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9543981552124023,
+        "normal": 0.02700657583773136,
+        "on_fire": 0.004579321946948767,
+        "smoking": 0.014015965163707733
+      }
+    },
+    {
+      "group_key": "boiling_20",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_20_1.jpg",
+        "cooking-pot_boiling_20_2.jpg",
+        "cooking-pot_boiling_20_3.jpg"
+      ],
+      "merged_bbox": [
+        67,
+        159,
+        224,
+        286
+      ],
+      "predicted_class": "boiling",
+      "confidence": 98.57843518257141,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9857843518257141,
+        "normal": 0.006006272975355387,
+        "on_fire": 0.003548403736203909,
+        "smoking": 0.004660993814468384
+      }
+    },
+    {
+      "group_key": "boiling_21",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_21_1.jpg",
+        "cooking-pot_boiling_21_2.jpg",
+        "cooking-pot_boiling_21_3.jpg"
+      ],
+      "merged_bbox": [
+        1,
+        16,
+        499,
+        287
+      ],
+      "predicted_class": "boiling",
+      "confidence": 87.2091293334961,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.8720912933349609,
+        "normal": 0.07534153759479523,
+        "on_fire": 0.03943343460559845,
+        "smoking": 0.013133745640516281
+      }
+    },
+    {
+      "group_key": "boiling_22",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_22_1.jpg",
+        "cooking-pot_boiling_22_2.jpg",
+        "cooking-pot_boiling_22_3.jpg"
+      ],
+      "merged_bbox": [
+        3,
+        18,
+        476,
+        288
+      ],
+      "predicted_class": "boiling",
+      "confidence": 54.64489459991455,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.5464489459991455,
+        "normal": 0.44508880376815796,
+        "on_fire": 0.005138288252055645,
+        "smoking": 0.0033239428885281086
+      }
+    },
+    {
+      "group_key": "boiling_23",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_23_1.jpg",
+        "cooking-pot_boiling_23_2.jpg",
+        "cooking-pot_boiling_23_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        38,
+        288,
+        451
+      ],
+      "predicted_class": "boiling",
+      "confidence": 94.50602531433105,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9450602531433105,
+        "normal": 0.03787516802549362,
+        "on_fire": 0.010531431995332241,
+        "smoking": 0.006533109582960606
+      }
+    },
+    {
+      "group_key": "boiling_24",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "cooking-pot_boiling_24_1.jpg",
+        "cooking-pot_boiling_24_2.jpg",
+        "cooking-pot_boiling_24_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        95,
+        287,
+        397
+      ],
+      "predicted_class": "boiling",
+      "confidence": 92.63765215873718,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.9263765215873718,
+        "normal": 0.042328841984272,
+        "on_fire": 0.02264186553657055,
+        "smoking": 0.008652744814753532
+      }
+    },
+    {
+      "group_key": "boiling_9",
+      "ground_truth": "boiling",
+      "frame_files": [
+        "frying-pan_boiling_9_1.jpg",
+        "frying-pan_boiling_9_2.jpg",
+        "frying-pan_boiling_9_3.jpg"
+      ],
+      "merged_bbox": [
+        19,
+        148,
+        273,
+        318
+      ],
+      "predicted_class": "normal",
+      "confidence": 50.66807270050049,
+      "correct": false,
+      "all_probabilities": {
+        "boiling": 0.4626823961734772,
+        "normal": 0.5066807270050049,
+        "on_fire": 0.011233950033783913,
+        "smoking": 0.01940285786986351
+      }
+    },
+    {
+      "group_key": "on_fire_21",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_21_1.jpg",
+        "frying-pan_on-fire_21_2.jpg",
+        "frying-pan_on-fire_21_3.jpg"
+      ],
+      "merged_bbox": [
+        41,
+        174,
+        267,
+        316
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.91683554649353,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.009829561226069927,
+        "normal": 0.004321506712585688,
+        "on_fire": 0.9791683554649353,
+        "smoking": 0.006680583581328392
+      }
+    },
+    {
+      "group_key": "on_fire_22",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_22_1.jpg",
+        "frying-pan_on-fire_22_2.jpg",
+        "frying-pan_on-fire_22_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        179,
+        286,
+        456
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.81684279441833,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.00918677169829607,
+        "normal": 0.007841591723263264,
+        "on_fire": 0.9781684279441833,
+        "smoking": 0.004803266376256943
+      }
+    },
+    {
+      "group_key": "on_fire_23",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_23_1.jpg",
+        "frying-pan_on-fire_23_2.jpg",
+        "frying-pan_on-fire_23_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        263,
+        95,
+        349
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.0309784412384,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.006189621053636074,
+        "normal": 0.0039480603300035,
+        "on_fire": 0.980309784412384,
+        "smoking": 0.00955258123576641
+      }
+    },
+    {
+      "group_key": "on_fire_24",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_24_1.jpg",
+        "frying-pan_on-fire_24_2.jpg",
+        "frying-pan_on-fire_24_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        271,
+        98,
+        359
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.69808650016785,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.006934702396392822,
+        "normal": 0.008882906287908554,
+        "on_fire": 0.9769808650016785,
+        "smoking": 0.007201479747891426
+      }
+    },
+    {
+      "group_key": "on_fire_25",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_25_1.jpg",
+        "frying-pan_on-fire_25_2.jpg",
+        "frying-pan_on-fire_25_3.jpg"
+      ],
+      "merged_bbox": [
+        58,
+        205,
+        207,
+        326
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 96.84954881668091,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.007762511260807514,
+        "normal": 0.0043112109415233135,
+        "on_fire": 0.9684954881668091,
+        "smoking": 0.01943086087703705
+      }
+    },
+    {
+      "group_key": "on_fire_26",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_26_1.jpg",
+        "frying-pan_on-fire_26_2.jpg",
+        "frying-pan_on-fire_26_3.jpg"
+      ],
+      "merged_bbox": [
+        69,
+        223,
+        204,
+        325
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.29259014129639,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.006771711632609367,
+        "normal": 0.0030521866865456104,
+        "on_fire": 0.9729259014129639,
+        "smoking": 0.01725015416741371
+      }
+    },
+    {
+      "group_key": "on_fire_27",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_27_1.jpg",
+        "frying-pan_on-fire_27_2.jpg",
+        "frying-pan_on-fire_27_3.jpg"
+      ],
+      "merged_bbox": [
+        25,
+        261,
+        99,
+        310
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.68770837783813,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.008288231678307056,
+        "normal": 0.0006865542382001877,
+        "on_fire": 0.9868770837783813,
+        "smoking": 0.004148156847804785
+      }
+    },
+    {
+      "group_key": "on_fire_28",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_28_1.jpg",
+        "frying-pan_on-fire_28_2.jpg",
+        "frying-pan_on-fire_28_3.jpg"
+      ],
+      "merged_bbox": [
+        42,
+        281,
+        112,
+        330
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.75311350822449,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01632818579673767,
+        "normal": 0.001752518117427826,
+        "on_fire": 0.9775311350822449,
+        "smoking": 0.0043881675228476524
+      }
+    },
+    {
+      "group_key": "on_fire_29",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_29_1.jpg",
+        "frying-pan_on-fire_29_2.jpg",
+        "frying-pan_on-fire_29_3.jpg"
+      ],
+      "merged_bbox": [
+        125,
+        206,
+        224,
+        284
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 92.13488698005676,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.011084670200943947,
+        "normal": 0.02368433214724064,
+        "on_fire": 0.9213488698005676,
+        "smoking": 0.043882183730602264
+      }
+    },
+    {
+      "group_key": "on_fire_30",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_30_1.jpg",
+        "frying-pan_on-fire_30_2.jpg",
+        "frying-pan_on-fire_30_3.jpg"
+      ],
+      "merged_bbox": [
+        145,
+        225,
+        241,
+        299
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 96.06316089630127,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.007372979540377855,
+        "normal": 0.018657894805073738,
+        "on_fire": 0.9606316089630127,
+        "smoking": 0.013337429612874985
+      }
+    },
+    {
+      "group_key": "on_fire_31",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_31_1.jpg",
+        "frying-pan_on-fire_31_2.jpg",
+        "frying-pan_on-fire_31_3.jpg"
+      ],
+      "merged_bbox": [
+        127,
+        247,
+        243,
+        344
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.43125939369202,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.010754813440144062,
+        "normal": 0.0018393228529021144,
+        "on_fire": 0.9843125939369202,
+        "smoking": 0.0030933080706745386
+      }
+    },
+    {
+      "group_key": "on_fire_32",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_32_1.jpg",
+        "frying-pan_on-fire_32_2.jpg",
+        "frying-pan_on-fire_32_3.jpg"
+      ],
+      "merged_bbox": [
+        89,
+        313,
+        180,
+        370
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.59991669654846,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.007634353823959827,
+        "normal": 0.003088690573349595,
+        "on_fire": 0.9859991669654846,
+        "smoking": 0.0032777630258351564
+      }
+    },
+    {
+      "group_key": "on_fire_33",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_33_1.jpg",
+        "frying-pan_on-fire_33_2.jpg",
+        "frying-pan_on-fire_33_3.jpg"
+      ],
+      "merged_bbox": [
+        18,
+        296,
+        145,
+        381
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 96.43880724906921,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01955069787800312,
+        "normal": 0.007244199980050325,
+        "on_fire": 0.9643880724906921,
+        "smoking": 0.008817082270979881
+      }
+    },
+    {
+      "group_key": "on_fire_34",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_34_1.jpg",
+        "frying-pan_on-fire_34_2.jpg",
+        "frying-pan_on-fire_34_3.jpg"
+      ],
+      "merged_bbox": [
+        17,
+        296,
+        150,
+        380
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 94.45908069610596,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.016977915540337563,
+        "normal": 0.02145988680422306,
+        "on_fire": 0.9445908069610596,
+        "smoking": 0.016971301287412643
+      }
+    },
+    {
+      "group_key": "on_fire_35",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_35_1.jpg",
+        "frying-pan_on-fire_35_2.jpg",
+        "frying-pan_on-fire_35_3.jpg"
+      ],
+      "merged_bbox": [
+        18,
+        185,
+        279,
+        366
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.98253083229065,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.004494200926274061,
+        "normal": 0.002444819314405322,
+        "on_fire": 0.9898253083229065,
+        "smoking": 0.0032356888987123966
+      }
+    },
+    {
+      "group_key": "on_fire_36",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_36_1.jpg",
+        "frying-pan_on-fire_36_2.jpg",
+        "frying-pan_on-fire_36_3.jpg"
+      ],
+      "merged_bbox": [
+        15,
+        195,
+        281,
+        379
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.24342131614685,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.00798095390200615,
+        "normal": 0.004629742819815874,
+        "on_fire": 0.9824342131614685,
+        "smoking": 0.004955054726451635
+      }
+    },
+    {
+      "group_key": "on_fire_37",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_37_1.jpg",
+        "frying-pan_on-fire_37_2.jpg",
+        "frying-pan_on-fire_37_3.jpg"
+      ],
+      "merged_bbox": [
+        86,
+        310,
+        179,
+        374
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 97.69327640533447,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01211599726229906,
+        "normal": 0.005404507275670767,
+        "on_fire": 0.9769327640533447,
+        "smoking": 0.005546692758798599
+      }
+    },
+    {
+      "group_key": "on_fire_38",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_38_1.jpg",
+        "frying-pan_on-fire_38_2.jpg",
+        "frying-pan_on-fire_38_3.jpg"
+      ],
+      "merged_bbox": [
+        89,
+        313,
+        180,
+        370
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 98.59991669654846,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.007634353823959827,
+        "normal": 0.003088690573349595,
+        "on_fire": 0.9859991669654846,
+        "smoking": 0.0032777630258351564
+      }
+    },
+    {
+      "group_key": "on_fire_39",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_39_1.jpg",
+        "frying-pan_on-fire_39_2.jpg",
+        "frying-pan_on-fire_39_3.jpg"
+      ],
+      "merged_bbox": [
+        165,
+        60,
+        407,
+        225
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 95.96731662750244,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.011121971532702446,
+        "normal": 0.018396707251667976,
+        "on_fire": 0.9596731662750244,
+        "smoking": 0.010808086954057217
+      }
+    },
+    {
+      "group_key": "on_fire_40",
+      "ground_truth": "on_fire",
+      "frame_files": [
+        "frying-pan_on-fire_40_1.jpg",
+        "frying-pan_on-fire_40_2.jpg",
+        "frying-pan_on-fire_40_3.jpg"
+      ],
+      "merged_bbox": [
+        167,
+        54,
+        412,
+        219
+      ],
+      "predicted_class": "on_fire",
+      "confidence": 91.77034497261047,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.0068656811490654945,
+        "normal": 0.07127328962087631,
+        "on_fire": 0.9177034497261047,
+        "smoking": 0.004157557617872953
+      }
+    },
+    {
+      "group_key": "smoking_21",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_21_1.jpg",
+        "frying-pan_smoking_21_2.jpg",
+        "frying-pan_smoking_21_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        146,
+        266,
+        394
+      ],
+      "predicted_class": "smoking",
+      "confidence": 98.06295037269592,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.0052177258767187595,
+        "normal": 0.010494884103536606,
+        "on_fire": 0.0036579130683094263,
+        "smoking": 0.9806295037269592
+      }
+    },
+    {
+      "group_key": "smoking_22",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_22_1.jpg",
+        "frying-pan_smoking_22_2.jpg",
+        "frying-pan_smoking_22_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        213,
+        256,
+        419
+      ],
+      "predicted_class": "smoking",
+      "confidence": 98.26146960258484,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.005376509856432676,
+        "normal": 0.0076756891794502735,
+        "on_fire": 0.004333151038736105,
+        "smoking": 0.9826146960258484
+      }
+    },
+    {
+      "group_key": "smoking_23",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_23_1.jpg",
+        "frying-pan_smoking_23_2.jpg",
+        "frying-pan_smoking_23_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        94,
+        287,
+        328
+      ],
+      "predicted_class": "smoking",
+      "confidence": 96.49072289466858,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.0054448931477963924,
+        "normal": 0.022347431629896164,
+        "on_fire": 0.00730042764917016,
+        "smoking": 0.9649072289466858
+      }
+    },
+    {
+      "group_key": "smoking_24",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_24_1.jpg",
+        "frying-pan_smoking_24_2.jpg",
+        "frying-pan_smoking_24_3.jpg"
+      ],
+      "merged_bbox": [
+        1,
+        128,
+        287,
+        375
+      ],
+      "predicted_class": "smoking",
+      "confidence": 86.70706152915955,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.00805641058832407,
+        "normal": 0.11154205352067947,
+        "on_fire": 0.013330910354852676,
+        "smoking": 0.8670706152915955
+      }
+    },
+    {
+      "group_key": "smoking_25",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_25_1.jpg",
+        "frying-pan_smoking_25_2.jpg",
+        "frying-pan_smoking_25_3.jpg"
+      ],
+      "merged_bbox": [
+        104,
+        294,
+        259,
+        407
+      ],
+      "predicted_class": "smoking",
+      "confidence": 92.22043752670288,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01864420808851719,
+        "normal": 0.044074416160583496,
+        "on_fire": 0.01507699303328991,
+        "smoking": 0.9222043752670288
+      }
+    },
+    {
+      "group_key": "smoking_26",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_26_1.jpg",
+        "frying-pan_smoking_26_2.jpg",
+        "frying-pan_smoking_26_3.jpg"
+      ],
+      "merged_bbox": [
+        106,
+        314,
+        247,
+        417
+      ],
+      "predicted_class": "smoking",
+      "confidence": 95.92397212982178,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01255094911903143,
+        "normal": 0.014175615273416042,
+        "on_fire": 0.014033665880560875,
+        "smoking": 0.9592397212982178
+      }
+    },
+    {
+      "group_key": "smoking_27",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_27_1.jpg",
+        "frying-pan_smoking_27_2.jpg",
+        "frying-pan_smoking_27_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        111,
+        230,
+        415
+      ],
+      "predicted_class": "smoking",
+      "confidence": 97.39387035369873,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.014784494414925575,
+        "normal": 0.004428258165717125,
+        "on_fire": 0.006848532240837812,
+        "smoking": 0.9739387035369873
+      }
+    },
+    {
+      "group_key": "smoking_28",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_28_1.jpg",
+        "frying-pan_smoking_28_2.jpg",
+        "frying-pan_smoking_28_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        148,
+        230,
+        427
+      ],
+      "predicted_class": "smoking",
+      "confidence": 96.32282257080078,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.02062462456524372,
+        "normal": 0.008021342568099499,
+        "on_fire": 0.008125820197165012,
+        "smoking": 0.9632282257080078
+      }
+    },
+    {
+      "group_key": "smoking_29",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_29_1.jpg",
+        "frying-pan_smoking_29_2.jpg",
+        "frying-pan_smoking_29_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        116,
+        287,
+        435
+      ],
+      "predicted_class": "smoking",
+      "confidence": 96.33395671844482,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.013858554884791374,
+        "normal": 0.019624685868620872,
+        "on_fire": 0.0031771399080753326,
+        "smoking": 0.9633395671844482
+      }
+    },
+    {
+      "group_key": "smoking_30",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_30_1.jpg",
+        "frying-pan_smoking_30_2.jpg",
+        "frying-pan_smoking_30_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        95,
+        287,
+        419
+      ],
+      "predicted_class": "smoking",
+      "confidence": 78.37591171264648,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.10655692964792252,
+        "normal": 0.08914799988269806,
+        "on_fire": 0.020536016672849655,
+        "smoking": 0.7837591171264648
+      }
+    },
+    {
+      "group_key": "smoking_31",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_31_1.jpg",
+        "frying-pan_smoking_31_2.jpg",
+        "frying-pan_smoking_31_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        115,
+        230,
+        420
+      ],
+      "predicted_class": "smoking",
+      "confidence": 93.66978406906128,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.016641926020383835,
+        "normal": 0.018212756142020226,
+        "on_fire": 0.028447475284337997,
+        "smoking": 0.9366978406906128
+      }
+    },
+    {
+      "group_key": "smoking_32",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_32_1.jpg",
+        "frying-pan_smoking_32_2.jpg",
+        "frying-pan_smoking_32_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        157,
+        230,
+        437
+      ],
+      "predicted_class": "smoking",
+      "confidence": 94.13219094276428,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.0198355820029974,
+        "normal": 0.023941868916153908,
+        "on_fire": 0.014900658279657364,
+        "smoking": 0.9413219094276428
+      }
+    },
+    {
+      "group_key": "smoking_33",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_33_1.jpg",
+        "frying-pan_smoking_33_2.jpg",
+        "frying-pan_smoking_33_3.jpg"
+      ],
+      "merged_bbox": [
+        57,
+        213,
+        171,
+        289
+      ],
+      "predicted_class": "smoking",
+      "confidence": 82.09350109100342,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.02035326324403286,
+        "normal": 0.11865411698818207,
+        "on_fire": 0.04005763307213783,
+        "smoking": 0.8209350109100342
+      }
+    },
+    {
+      "group_key": "smoking_34",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_34_1.jpg",
+        "frying-pan_smoking_34_2.jpg",
+        "frying-pan_smoking_34_3.jpg"
+      ],
+      "merged_bbox": [
+        57,
+        214,
+        169,
+        290
+      ],
+      "predicted_class": "smoking",
+      "confidence": 84.74728465080261,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.019911490380764008,
+        "normal": 0.09527832269668579,
+        "on_fire": 0.03733737766742706,
+        "smoking": 0.8474728465080261
+      }
+    },
+    {
+      "group_key": "smoking_35",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_35_1.jpg",
+        "frying-pan_smoking_35_2.jpg",
+        "frying-pan_smoking_35_3.jpg"
+      ],
+      "merged_bbox": [
+        35,
+        147,
+        353,
+        412
+      ],
+      "predicted_class": "smoking",
+      "confidence": 94.66332793235779,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.011370263993740082,
+        "normal": 0.039209604263305664,
+        "on_fire": 0.002786812139675021,
+        "smoking": 0.9466332793235779
+      }
+    },
+    {
+      "group_key": "smoking_36",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_36_1.jpg",
+        "frying-pan_smoking_36_2.jpg",
+        "frying-pan_smoking_36_3.jpg"
+      ],
+      "merged_bbox": [
+        38,
+        151,
+        358,
+        414
+      ],
+      "predicted_class": "smoking",
+      "confidence": 96.09405994415283,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.010240300558507442,
+        "normal": 0.02586287073791027,
+        "on_fire": 0.0029562278650701046,
+        "smoking": 0.9609405994415283
+      }
+    },
+    {
+      "group_key": "smoking_37",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_37_1.jpg",
+        "frying-pan_smoking_37_2.jpg",
+        "frying-pan_smoking_37_3.jpg"
+      ],
+      "merged_bbox": [
+        64,
+        309,
+        244,
+        449
+      ],
+      "predicted_class": "smoking",
+      "confidence": 94.62341666221619,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.018585989251732826,
+        "normal": 0.031593143939971924,
+        "on_fire": 0.003586697392165661,
+        "smoking": 0.9462341666221619
+      }
+    },
+    {
+      "group_key": "smoking_38",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_38_1.jpg",
+        "frying-pan_smoking_38_2.jpg",
+        "frying-pan_smoking_38_3.jpg"
+      ],
+      "merged_bbox": [
+        64,
+        292,
+        247,
+        383
+      ],
+      "predicted_class": "smoking",
+      "confidence": 87.6674473285675,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.02728339470922947,
+        "normal": 0.07253663241863251,
+        "on_fire": 0.02350548841059208,
+        "smoking": 0.876674473285675
+      }
+    },
+    {
+      "group_key": "smoking_39",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_39_1.jpg",
+        "frying-pan_smoking_39_2.jpg",
+        "frying-pan_smoking_39_3.jpg"
+      ],
+      "merged_bbox": [
+        0,
+        171,
+        287,
+        427
+      ],
+      "predicted_class": "smoking",
+      "confidence": 94.28926706314087,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01317682210355997,
+        "normal": 0.035921309143304825,
+        "on_fire": 0.008009211160242558,
+        "smoking": 0.9428926706314087
+      }
+    },
+    {
+      "group_key": "smoking_40",
+      "ground_truth": "smoking",
+      "frame_files": [
+        "frying-pan_smoking_40_1.jpg",
+        "frying-pan_smoking_40_2.jpg",
+        "frying-pan_smoking_40_3.jpg"
+      ],
+      "merged_bbox": [
+        57,
+        224,
+        180,
+        302
+      ],
+      "predicted_class": "smoking",
+      "confidence": 89.65296149253845,
+      "correct": true,
+      "all_probabilities": {
+        "boiling": 0.01570352353155613,
+        "normal": 0.037140559405088425,
+        "on_fire": 0.05062634497880936,
+        "smoking": 0.8965296149253845
+      }
+    }
+  ]
+}
