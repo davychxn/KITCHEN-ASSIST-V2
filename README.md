@@ -15,7 +15,12 @@ Kitchen Assistant V2 is a computer vision project for kitchen cookware detection
 - **`FINE_TUNING_JOURNEY_CN.md`** - Model fine-tuning process documentation (Chinese)
 
 ### Models
-- **`pan_pot_classifier_temporal.pth`** - Trained PyTorch temporal classification model for pan/pot detection
+- **`yolo_training/kitchenware_detector2/weights/best.pt`** - **Step 1**: YOLOv8n object detection model for detecting pans and pots
+  - 497 training images, 2 classes (cooking-pot, frying-pan)
+  - Performance: 99.9% precision, 100% recall
+- **`pan_pot_classifier_temporal.pth`** - **Step 2**: MobileNet v2 temporal classification model for cooking state detection
+  - 143 temporal groups (3 frames each), 4 classes (boiling, normal, on_fire, smoking)
+  - Performance: 93.10% validation accuracy, 92.9% test accuracy
 
 ### Scripts
 - **`verify_yolo.py`** - YOLO model verification script
@@ -58,10 +63,16 @@ See training results in `yolo_training/kitchenware_detector/` and `yolo_training
 - Validation batch predictions
 - Model checkpoints at various epochs
 
-### Temporal Classifier
+### Step 1: YOLO Detector (Object Detection)
+- Model: `yolo_training/kitchenware_detector2/weights/best.pt`
+- Classes: cooking-pot, frying-pan
+- Performance: 99.9% precision, 100% recall
+
+### Step 2: Temporal Classifier (State Classification)
 - Model: `pan_pot_classifier_temporal.pth`
+- Classes: boiling, normal, on_fire, smoking
 - Verification results: `verification_results_on_originals/`
-- Performance metrics in JSON format
+- Performance: 93.10% validation accuracy, 92.9% test accuracy
 
 ## Usage
 

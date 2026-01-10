@@ -15,7 +15,12 @@ Kitchen Assistant V2 是一个用于厨房炊具检测和分类的计算机视�
 - **`FINE_TUNING_JOURNEY_CN.md`** - 模型微调过程文档（中文）
 
 ### 模型
-- **`pan_pot_classifier_temporal.pth`** - 训练好的平底锅/炒锅时序分类PyTorch模型
+- **`yolo_training/kitchenware_detector2/weights/best.pt`** - **步骤1**：YOLOv8n目标检测模型，用于检测平底锅和炒锅
+  - 497张训练图像，2个类别（cooking-pot，frying-pan）
+  - 性能：99.9%精确率，100%召回率
+- **`pan_pot_classifier_temporal.pth`** - **步骤2**：MobileNet v2时序分类模型，用于烹饪状态检测
+  - 143个时序组（每组3帧），4个类别（boiling沸腾、normal正常、on_fire着火、smoking冒烟）
+  - 性能：93.10%验证准确率，92.9%测试准确率
 
 ### 脚本
 - **`verify_yolo.py`** - YOLO模型验证脚本
@@ -58,10 +63,16 @@ YOLO模型训练结果和产物。
 - 验证批次预测
 - 各个训练轮次的模型检查点
 
-### 时序分类器
+### 步骤1：YOLO检测器（目标检测）
+- 模型：`yolo_training/kitchenware_detector2/weights/best.pt`
+- 类别：cooking-pot（炒锅），frying-pan（平底锅）
+- 性能：99.9%精确率，100%召回率
+
+### 步骤2：时序分类器（状态分类）
 - 模型：`pan_pot_classifier_temporal.pth`
+- 类别：boiling（沸腾）、normal（正常）、on_fire（着火）、smoking（冒烟）
 - 验证结果：`verification_results_on_originals/`
-- JSON格式的性能指标
+- 性能：93.10%验证准确率，92.9%测试准确率
 
 ## 使用方法
 
