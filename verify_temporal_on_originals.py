@@ -55,7 +55,7 @@ def merge_bboxes_with_outlier_removal(bboxes, threshold_percentile=20):
 
 def run_verification_on_originals(input_dir, 
                                    output_dir,
-                                   model_path='pan_pot_classifier_temporal.pth',
+                                   model_path='./yolo_training/pan_pot_classifier_temporal.pth',
                                    yolo_model_path='./yolo_training/kitchenware_detector2/weights/best.pt',
                                    backbone='mobilenet_v2',
                                    conf_threshold=0.3):
@@ -299,9 +299,9 @@ if __name__ == "__main__":
     import sys
     
     # Configuration with command line support
-    INPUT_DIR = sys.argv[1] if len(sys.argv) > 1 else r"D:\delete2025\20251205_patent_abnormal\20260106_pics\verification_pics2"
+    INPUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "./verification_pics"
     OUTPUT_DIR = sys.argv[2] if len(sys.argv) > 2 else "./verification_results_on_originals"
-    MODEL_PATH = "pan_pot_classifier_temporal.pth"
+    MODEL_PATH = "./yolo_training/pan_pot_classifier_temporal.pth"
     YOLO_MODEL_PATH = "./yolo_training/kitchenware_detector2/weights/best.pt"
     BACKBONE = "mobilenet_v2"
     

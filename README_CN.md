@@ -9,10 +9,36 @@ Kitchen Assistant V2 是一个用于厨房炊具检测和分类的计算机视�
 ## 项目结构
 
 ### 文档
-- **`README.md`** - 项目文档（英文）
-- **`README_CN.md`** - 项目文档（中文）
-- **`FINE_TUNING_JOURNEY.md`** - 模型微调过程文档（英文）
-- **`FINE_TUNING_JOURNEY_CN.md`** - 模型微调过程文档（中文）
+# 核心依赖
+pip install -r requirements.txt
+```
+
+### PC（Windows/Linux x86_64）
+
+```bash
+# 可选：创建并激活虚拟环境
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### Raspberry Pi（ARM64）
+
+```bash
+# 安装 PyTorch 轮子（ARM64）
+pip3 install https://github.com/KumaTea/pytorch-aarch64/releases/download/v2.3.0/torch-2.3.0a0+gitc8f7e6d-cp311-cp311-linux_aarch64.whl
+pip3 install https://github.com/KumaTea/pytorch-aarch64/releases/download/v2.3.0/torchvision-0.18.0a0+gitc8f7e6d-cp311-cp311-linux_aarch64.whl
+
+# 使用 apt 安装 OpenCV（Pi 更稳定）
+sudo apt update
+sudo apt install -y python3-opencv
+
+# 安装其余依赖
+pip3 install -r requirements.txt
 
 ### 模型
 - **`yolo_training/kitchenware_detector2/weights/best.pt`** - **步骤1**：YOLOv8n目标检测模型，用于检测平底锅和炒锅

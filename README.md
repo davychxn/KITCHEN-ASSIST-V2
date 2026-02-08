@@ -106,10 +106,35 @@ This repository contains:
 
 ```bash
 # Core dependencies
-pip install torch torchvision
-pip install ultralytics  # For YOLO
-pip install opencv-python
-pip install numpy pandas matplotlib
+pip install -r requirements.txt
+```
+
+### PC (Windows/Linux x86_64)
+
+```bash
+# Optional: create and activate a virtual environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### Raspberry Pi (ARM64)
+
+```bash
+# Install PyTorch wheels (ARM64)
+pip3 install https://github.com/KumaTea/pytorch-aarch64/releases/download/v2.3.0/torch-2.3.0a0+gitc8f7e6d-cp311-cp311-linux_aarch64.whl
+pip3 install https://github.com/KumaTea/pytorch-aarch64/releases/download/v2.3.0/torchvision-0.18.0a0+gitc8f7e6d-cp311-cp311-linux_aarch64.whl
+
+# OpenCV from apt (more reliable on Pi)
+sudo apt update
+sudo apt install -y python3-opencv
+
+# Install the rest
+pip3 install -r requirements.txt
 ```
 
 ## License
